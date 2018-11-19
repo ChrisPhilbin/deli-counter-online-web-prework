@@ -11,9 +11,10 @@ def line(i)
     puts "The line is currently: #{line_array.join(" ")}"
   end
 end
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli)
+  #katz_deli is an array of ticket numbers, not names
   katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+  puts "Welcome, you are ticket number #{name}. You are number #{katz_deli.length} in line."
 end
 def now_serving(array)
   if array.empty?
@@ -25,6 +26,5 @@ def now_serving(array)
 end
 katz_deli = []
 
-take_a_number(katz_deli, "Bob")
-now_serving(katz_deli)
-take_a_number(katz_deli, "Sally")
+take_a_number(katz_deli)
+#Welcom, you are ticket number 1. You are number 1 in line. 
