@@ -13,8 +13,10 @@ def line(i)
 end
 def take_a_number(katz_deli)
   #katz_deli is an array of ticket numbers, not names
-  katz_deli.push(1)
+  counter = 1
+  katz_deli.push(counter)
   puts "Welcome, you are ticket number #{katz_deli.length}. You are number #{katz_deli.length} in line."
+  counter += 1
 end
 def now_serving(array)
   if array.empty?
