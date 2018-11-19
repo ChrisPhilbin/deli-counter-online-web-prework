@@ -33,4 +33,5 @@ take_a_number(katz_deli)
 now_serving(katz_deli)
 now_serving(katz_deli)
 take_a_number(katz_deli)
+now_serving(katz_deli)
 #Welcom, you are ticket number 1. You are number 1 in line.
