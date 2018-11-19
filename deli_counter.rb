@@ -1,4 +1,4 @@
-katz_deli = []
+
 
 def line(i)
   line_array = []
@@ -23,7 +23,7 @@ def now_serving(array)
     array.shift
   end
 end
-
+katz_deli = []
 now_serving(katz_deli)
 take_a_number(katz_deli, "Bob")
 take_a_number(katz_deli, "Sally")
