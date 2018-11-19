@@ -13,8 +13,8 @@ def line(i)
 end
 def take_a_number(katz_deli)
   #katz_deli is an array of ticket numbers, not names
-  katz_deli.push(name)
-  puts "Welcome, you are ticket number #{name}. You are number #{katz_deli.length} in line."
+  #katz_deli.push(name)
+  puts "Welcome, you are ticket number #{katz_deli.length}. You are number #{katz_deli.length} in line."
 end
 def now_serving(array)
   if array.empty?
@@ -27,4 +27,4 @@ end
 katz_deli = []
 
 take_a_number(katz_deli)
-#Welcom, you are ticket number 1. You are number 1 in line. 
+#Welcom, you are ticket number 1. You are number 1 in line.
